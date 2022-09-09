@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F210AE8228BE6AC100B9BE88 /* Riffy_HApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210AE8128BE6AC100B9BE88 /* Riffy_HApp.swift */; };
+		F210AE8228BE6AC100B9BE88 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210AE8128BE6AC100B9BE88 /* App.swift */; };
 		F210AE8428BE6AC100B9BE88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210AE8328BE6AC100B9BE88 /* ContentView.swift */; };
 		F210AE8628BE6AC100B9BE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F210AE8528BE6AC100B9BE88 /* Assets.xcassets */; };
 		F210AE8928BE6AC100B9BE88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F210AE8828BE6AC100B9BE88 /* Preview Assets.xcassets */; };
+		F29E953828CB8C4100F7FD54 /* TailwindColor in Frameworks */ = {isa = PBXBuildFile; productRef = F29E953728CB8C4100F7FD54 /* TailwindColor */; };
+		F29E953B28CB8D9C00F7FD54 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E953A28CB8D9C00F7FD54 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F210AE7E28BE6AC100B9BE88 /* Riffy H.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riffy H.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F210AE8128BE6AC100B9BE88 /* Riffy_HApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riffy_HApp.swift; sourceTree = "<group>"; };
+		F210AE8128BE6AC100B9BE88 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		F210AE8328BE6AC100B9BE88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F210AE8528BE6AC100B9BE88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F210AE8828BE6AC100B9BE88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F29E953A28CB8D9C00F7FD54 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F29E953828CB8C4100F7FD54 /* TailwindColor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +42,9 @@
 				F210AE8028BE6AC100B9BE88 /* Riffy H */,
 				F210AE7F28BE6AC100B9BE88 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		F210AE7F28BE6AC100B9BE88 /* Products */ = {
 			isa = PBXGroup;
@@ -51,7 +57,8 @@
 		F210AE8028BE6AC100B9BE88 /* Riffy H */ = {
 			isa = PBXGroup;
 			children = (
-				F210AE8128BE6AC100B9BE88 /* Riffy_HApp.swift */,
+				F29E953928CB8D6400F7FD54 /* Views */,
+				F210AE8128BE6AC100B9BE88 /* App.swift */,
 				F210AE8328BE6AC100B9BE88 /* ContentView.swift */,
 				F210AE8528BE6AC100B9BE88 /* Assets.xcassets */,
 				F210AE8728BE6AC100B9BE88 /* Preview Content */,
@@ -65,6 +72,14 @@
 				F210AE8828BE6AC100B9BE88 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F29E953928CB8D6400F7FD54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F29E953A28CB8D9C00F7FD54 /* Home.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +98,9 @@
 			dependencies = (
 			);
 			name = "Riffy H";
+			packageProductDependencies = (
+				F29E953728CB8C4100F7FD54 /* TailwindColor */,
+			);
 			productName = "Riffy H";
 			productReference = F210AE7E28BE6AC100B9BE88 /* Riffy H.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +129,9 @@
 				Base,
 			);
 			mainGroup = F210AE7528BE6AC100B9BE88;
+			packageReferences = (
+				F29E953628CB8C4100F7FD54 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */,
+			);
 			productRefGroup = F210AE7F28BE6AC100B9BE88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F210AE8428BE6AC100B9BE88 /* ContentView.swift in Sources */,
-				F210AE8228BE6AC100B9BE88 /* Riffy_HApp.swift in Sources */,
+				F29E953B28CB8D9C00F7FD54 /* Home.swift in Sources */,
+				F210AE8228BE6AC100B9BE88 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +361,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F29E953628CB8C4100F7FD54 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rayriffy/swiftui-tailwind-color.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F29E953728CB8C4100F7FD54 /* TailwindColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F29E953628CB8C4100F7FD54 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */;
+			productName = TailwindColor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F210AE7628BE6AC100B9BE88 /* Project object */;
 }

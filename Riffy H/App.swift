@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Riffy_HApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct MainApp: App {
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
