@@ -11,8 +11,29 @@
 		F210AE8428BE6AC100B9BE88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210AE8328BE6AC100B9BE88 /* ContentView.swift */; };
 		F210AE8628BE6AC100B9BE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F210AE8528BE6AC100B9BE88 /* Assets.xcassets */; };
 		F210AE8928BE6AC100B9BE88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F210AE8828BE6AC100B9BE88 /* Preview Assets.xcassets */; };
+		F221705D28D0AD5C00A21903 /* HentaiReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F221705C28D0AD5C00A21903 /* HentaiReader.swift */; };
+		F2821A6F28CD0556008CBB93 /* KingfisherWebP in Frameworks */ = {isa = PBXBuildFile; productRef = F2821A6E28CD0556008CBB93 /* KingfisherWebP */; };
+		F2821A7128CD0FA9008CBB93 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2821A7028CD0FA9008CBB93 /* String.swift */; };
+		F2821A7428CD1013008CBB93 /* DescriptionLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2821A7328CD1013008CBB93 /* DescriptionLanguage.swift */; };
 		F29E953828CB8C4100F7FD54 /* TailwindColor in Frameworks */ = {isa = PBXBuildFile; productRef = F29E953728CB8C4100F7FD54 /* TailwindColor */; };
 		F29E953B28CB8D9C00F7FD54 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E953A28CB8D9C00F7FD54 /* Home.swift */; };
+		F2A60D9B28CCF70C00DC75A3 /* TagRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A60D9A28CCF70C00DC75A3 /* TagRenderer.swift */; };
+		F2A60D9E28CCFE7700DC75A3 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F2A60D9D28CCFE7700DC75A3 /* ComposableArchitecture */; };
+		F2C2943728CBD2A2001DFBE9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F2C2943628CBD2A2001DFBE9 /* Alamofire */; };
+		F2C2943928CBD356001DFBE9 /* ListingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2943828CBD356001DFBE9 /* ListingController.swift */; };
+		F2C2943B28CBD409001DFBE9 /* APIResponseWithData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2943A28CBD409001DFBE9 /* APIResponseWithData.swift */; };
+		F2C2944028CBDA17001DFBE9 /* HentaiCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2943F28CBDA17001DFBE9 /* HentaiCard.swift */; };
+		F2C2944228CBDAC7001DFBE9 /* ImageRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2944128CBDAC7001DFBE9 /* ImageRender.swift */; };
+		F2C2944528CBDD8D001DFBE9 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2944428CBDD8D001DFBE9 /* URL.swift */; };
+		F2D5FA3128CBF8D80061B8F3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F2D5FA3028CBF8D80061B8F3 /* Kingfisher */; };
+		F2D5FA3428CCA3440061B8F3 /* HentaiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5FA3328CCA3440061B8F3 /* HentaiDetail.swift */; };
+		F2D5FA3628CCA5F60061B8F3 /* HentaiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5FA3528CCA5F60061B8F3 /* HentaiController.swift */; };
+		F2D96A8328D09EA900D5159F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D96A8228D09EA900D5159F /* Config.swift */; };
+		F2DBC02C28CE0BF0000EFB04 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DBC02B28CE0BF0000EFB04 /* AppState.swift */; };
+		F2DBC02E28CE1462000EFB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DBC02D28CE1462000EFB04 /* AppDelegate.swift */; };
+		F2EB0A1A28CBAAF40038CB04 /* HentaiTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB0A1928CBAAF40038CB04 /* HentaiTag.swift */; };
+		F2EB0A2128CBAC270038CB04 /* HentaiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB0A2028CBAC270038CB04 /* HentaiImage.swift */; };
+		F2FAAF4628CBAD4800C7F01B /* Hentai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAAF4528CBAD4800C7F01B /* Hentai.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +42,24 @@
 		F210AE8328BE6AC100B9BE88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F210AE8528BE6AC100B9BE88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F210AE8828BE6AC100B9BE88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F221705C28D0AD5C00A21903 /* HentaiReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HentaiReader.swift; sourceTree = "<group>"; };
+		F2821A7028CD0FA9008CBB93 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		F2821A7328CD1013008CBB93 /* DescriptionLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionLanguage.swift; sourceTree = "<group>"; };
 		F29E953A28CB8D9C00F7FD54 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F2A60D9A28CCF70C00DC75A3 /* TagRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagRenderer.swift; sourceTree = "<group>"; };
+		F2C2943828CBD356001DFBE9 /* ListingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingController.swift; sourceTree = "<group>"; };
+		F2C2943A28CBD409001DFBE9 /* APIResponseWithData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseWithData.swift; sourceTree = "<group>"; };
+		F2C2943F28CBDA17001DFBE9 /* HentaiCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HentaiCard.swift; sourceTree = "<group>"; };
+		F2C2944128CBDAC7001DFBE9 /* ImageRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRender.swift; sourceTree = "<group>"; };
+		F2C2944428CBDD8D001DFBE9 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		F2D5FA3328CCA3440061B8F3 /* HentaiDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HentaiDetail.swift; sourceTree = "<group>"; };
+		F2D5FA3528CCA5F60061B8F3 /* HentaiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HentaiController.swift; sourceTree = "<group>"; };
+		F2D96A8228D09EA900D5159F /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F2DBC02B28CE0BF0000EFB04 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F2DBC02D28CE1462000EFB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2EB0A1928CBAAF40038CB04 /* HentaiTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HentaiTag.swift; sourceTree = "<group>"; };
+		F2EB0A2028CBAC270038CB04 /* HentaiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HentaiImage.swift; sourceTree = "<group>"; };
+		F2FAAF4528CBAD4800C7F01B /* Hentai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hentai.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,7 +67,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D5FA3128CBF8D80061B8F3 /* Kingfisher in Frameworks */,
+				F2C2943728CBD2A2001DFBE9 /* Alamofire in Frameworks */,
+				F2A60D9E28CCFE7700DC75A3 /* ComposableArchitecture in Frameworks */,
 				F29E953828CB8C4100F7FD54 /* TailwindColor in Frameworks */,
+				F2821A6F28CD0556008CBB93 /* KingfisherWebP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +99,12 @@
 		F210AE8028BE6AC100B9BE88 /* Riffy H */ = {
 			isa = PBXGroup;
 			children = (
+				F2D96A8128D09E9E00D5159F /* Constants */,
+				F2DBC02A28CE0BE5000EFB04 /* Context */,
+				F2D5FA3228CC077C0061B8F3 /* ObservableObject */,
+				F2C2944328CBDD7F001DFBE9 /* Extension */,
+				F2C2943C28CBD9EE001DFBE9 /* Components */,
+				F2EB0A1828CBAAC90038CB04 /* Codables */,
 				F29E953928CB8D6400F7FD54 /* Views */,
 				F210AE8128BE6AC100B9BE88 /* App.swift */,
 				F210AE8328BE6AC100B9BE88 /* ContentView.swift */,
@@ -74,12 +122,79 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F2821A7228CD1000008CBB93 /* HentaiReader */ = {
+			isa = PBXGroup;
+			children = (
+				F2A60D9A28CCF70C00DC75A3 /* TagRenderer.swift */,
+				F2821A7328CD1013008CBB93 /* DescriptionLanguage.swift */,
+			);
+			path = HentaiReader;
+			sourceTree = "<group>";
+		};
 		F29E953928CB8D6400F7FD54 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				F29E953A28CB8D9C00F7FD54 /* Home.swift */,
+				F2D5FA3328CCA3440061B8F3 /* HentaiDetail.swift */,
+				F221705C28D0AD5C00A21903 /* HentaiReader.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F2C2943C28CBD9EE001DFBE9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F2821A7228CD1000008CBB93 /* HentaiReader */,
+				F2C2943F28CBDA17001DFBE9 /* HentaiCard.swift */,
+				F2C2944128CBDAC7001DFBE9 /* ImageRender.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F2C2944328CBDD7F001DFBE9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2944428CBDD8D001DFBE9 /* URL.swift */,
+				F2821A7028CD0FA9008CBB93 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F2D5FA3228CC077C0061B8F3 /* ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2943828CBD356001DFBE9 /* ListingController.swift */,
+				F2D5FA3528CCA5F60061B8F3 /* HentaiController.swift */,
+			);
+			path = ObservableObject;
+			sourceTree = "<group>";
+		};
+		F2D96A8128D09E9E00D5159F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F2D96A8228D09EA900D5159F /* Config.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F2DBC02A28CE0BE5000EFB04 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBC02B28CE0BF0000EFB04 /* AppState.swift */,
+				F2DBC02D28CE1462000EFB04 /* AppDelegate.swift */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		F2EB0A1828CBAAC90038CB04 /* Codables */ = {
+			isa = PBXGroup;
+			children = (
+				F2EB0A1928CBAAF40038CB04 /* HentaiTag.swift */,
+				F2EB0A2028CBAC270038CB04 /* HentaiImage.swift */,
+				F2FAAF4528CBAD4800C7F01B /* Hentai.swift */,
+				F2C2943A28CBD409001DFBE9 /* APIResponseWithData.swift */,
+			);
+			path = Codables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +215,10 @@
 			name = "Riffy H";
 			packageProductDependencies = (
 				F29E953728CB8C4100F7FD54 /* TailwindColor */,
+				F2C2943628CBD2A2001DFBE9 /* Alamofire */,
+				F2D5FA3028CBF8D80061B8F3 /* Kingfisher */,
+				F2A60D9D28CCFE7700DC75A3 /* ComposableArchitecture */,
+				F2821A6E28CD0556008CBB93 /* KingfisherWebP */,
 			);
 			productName = "Riffy H";
 			productReference = F210AE7E28BE6AC100B9BE88 /* Riffy H.app */;
@@ -131,6 +250,10 @@
 			mainGroup = F210AE7528BE6AC100B9BE88;
 			packageReferences = (
 				F29E953628CB8C4100F7FD54 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */,
+				F2C2943528CBD2A2001DFBE9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F2D5FA2F28CBF8D80061B8F3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F2A60D9C28CCFE7700DC75A3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				F2821A6D28CD0556008CBB93 /* XCRemoteSwiftPackageReference "KingfisherWebP" */,
 			);
 			productRefGroup = F210AE7F28BE6AC100B9BE88 /* Products */;
 			projectDirPath = "";
@@ -158,8 +281,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EB0A2128CBAC270038CB04 /* HentaiImage.swift in Sources */,
+				F2D5FA3628CCA5F60061B8F3 /* HentaiController.swift in Sources */,
+				F2D5FA3428CCA3440061B8F3 /* HentaiDetail.swift in Sources */,
+				F2EB0A1A28CBAAF40038CB04 /* HentaiTag.swift in Sources */,
+				F2D96A8328D09EA900D5159F /* Config.swift in Sources */,
+				F221705D28D0AD5C00A21903 /* HentaiReader.swift in Sources */,
 				F210AE8428BE6AC100B9BE88 /* ContentView.swift in Sources */,
+				F2A60D9B28CCF70C00DC75A3 /* TagRenderer.swift in Sources */,
+				F2DBC02C28CE0BF0000EFB04 /* AppState.swift in Sources */,
+				F2C2944528CBDD8D001DFBE9 /* URL.swift in Sources */,
+				F2C2944228CBDAC7001DFBE9 /* ImageRender.swift in Sources */,
+				F2C2943B28CBD409001DFBE9 /* APIResponseWithData.swift in Sources */,
+				F2C2944028CBDA17001DFBE9 /* HentaiCard.swift in Sources */,
+				F2C2943928CBD356001DFBE9 /* ListingController.swift in Sources */,
+				F2DBC02E28CE1462000EFB04 /* AppDelegate.swift in Sources */,
 				F29E953B28CB8D9C00F7FD54 /* Home.swift in Sources */,
+				F2821A7428CD1013008CBB93 /* DescriptionLanguage.swift in Sources */,
+				F2821A7128CD0FA9008CBB93 /* String.swift in Sources */,
+				F2FAAF4628CBAD4800C7F01B /* Hentai.swift in Sources */,
 				F210AE8228BE6AC100B9BE88 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,8 +435,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +445,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rayriffy.Riffy-H";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,8 +468,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +478,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rayriffy.Riffy-H";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,6 +511,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F2821A6D28CD0556008CBB93 /* XCRemoteSwiftPackageReference "KingfisherWebP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Yeatse/KingfisherWebP.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		F29E953628CB8C4100F7FD54 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rayriffy/swiftui-tailwind-color.git";
@@ -371,13 +527,57 @@
 				kind = branch;
 			};
 		};
+		F2A60D9C28CCFE7700DC75A3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		F2C2943528CBD2A2001DFBE9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F2D5FA2F28CBF8D80061B8F3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F2821A6E28CD0556008CBB93 /* KingfisherWebP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2821A6D28CD0556008CBB93 /* XCRemoteSwiftPackageReference "KingfisherWebP" */;
+			productName = KingfisherWebP;
+		};
 		F29E953728CB8C4100F7FD54 /* TailwindColor */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F29E953628CB8C4100F7FD54 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */;
 			productName = TailwindColor;
+		};
+		F2A60D9D28CCFE7700DC75A3 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2A60D9C28CCFE7700DC75A3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		F2C2943628CBD2A2001DFBE9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2C2943528CBD2A2001DFBE9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F2D5FA3028CBF8D80061B8F3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2D5FA2F28CBF8D80061B8F3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

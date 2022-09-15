@@ -8,20 +8,35 @@
 import SwiftUI
 
 struct Home: View {
-  @State private var selectedMode: String = "nhentai"
+  @ObservedObject var listingController = ListingController()
 
   var body: some View {
     NavigationStack {
-      VStack {
-        Picker(selection: $selectedMode, label: Text(""), content: {
-          Text("NHentai").tag("nhentai")
-          Text("Listing").tag("listing")
-        }).pickerStyle(SegmentedPickerStyle())
-        
-        Spacer()
+      ScrollView {
+        VStack {
+          Picker(selection: $listingController.selectedMode, label: Text(""), content: {
+            Text("nhentai").tag("nhentai")
+            Text("Listing").tag("listing")
+          }).pickerStyle(SegmentedPickerStyle())
+          
+          if (listingController.firstLoad) {
+            ProgressView("Loading...").padding(.top, 32)
+          } else {
+            LazyVStack(alignment: .leading) {
+              ForEach(listingController.hentais, id: \.self.id) { hentai in
+                HentaiCard(hentai: hentai)
+                  .onAppear {
+                    listingController.loadMoreContentIfNeeded(currentItem: hentai)
+                  }
+                Divider()
+              }
+            }
+          }
+        }
+        .searchable(text: $listingController.searchQuery)
+        .navigationTitle("Home")
+        .padding(.horizontal)
       }
-      .padding()
-      .navigationTitle("Home")
     }
   }
 }
