@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F207133028D4F9BB00E74EC8 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F207132F28D4F9BB00E74EC8 /* WidgetKit.framework */; };
+		F207133228D4F9BB00E74EC8 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F207133128D4F9BB00E74EC8 /* SwiftUI.framework */; };
+		F207133528D4F9BB00E74EC8 /* RIffy_H_Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207133428D4F9BB00E74EC8 /* RIffy_H_Widgets.swift */; };
+		F207133828D4F9BC00E74EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F207133728D4F9BC00E74EC8 /* Assets.xcassets */; };
+		F207133A28D4F9BC00E74EC8 /* RIffy_H_Widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F207133628D4F9BB00E74EC8 /* RIffy_H_Widgets.intentdefinition */; };
+		F207133B28D4F9BC00E74EC8 /* RIffy_H_Widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F207133628D4F9BB00E74EC8 /* RIffy_H_Widgets.intentdefinition */; };
+		F207134628D4FA4400E74EC8 /* LiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207134428D4F9FB00E74EC8 /* LiveActivity.swift */; };
+		F207134A28D4FAD000E74EC8 /* ReaderActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207134928D4FAD000E74EC8 /* ReaderActivityAttributes.swift */; };
+		F207134B28D4FAD000E74EC8 /* ReaderActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207134928D4FAD000E74EC8 /* ReaderActivityAttributes.swift */; };
+		F207134C28D4FAFA00E74EC8 /* HentaiTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB0A1928CBAAF40038CB04 /* HentaiTag.swift */; };
+		F207134D28D4FAFC00E74EC8 /* HentaiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB0A2028CBAC270038CB04 /* HentaiImage.swift */; };
+		F207134E28D4FAFE00E74EC8 /* Hentai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAAF4528CBAD4800C7F01B /* Hentai.swift */; };
+		F207134F28D4FB0000E74EC8 /* APIResponseWithData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2943A28CBD409001DFBE9 /* APIResponseWithData.swift */; };
+		F207135028D5029600E74EC8 /* RIffy H WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F207132D28D4F9BB00E74EC8 /* RIffy H WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F207135928D5070400E74EC8 /* MiniTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207135828D5070400E74EC8 /* MiniTag.swift */; };
+		F207135A28D5071500E74EC8 /* MiniTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207135828D5070400E74EC8 /* MiniTag.swift */; };
+		F207135C28D507D200E74EC8 /* TailwindColor in Frameworks */ = {isa = PBXBuildFile; productRef = F207135B28D507D200E74EC8 /* TailwindColor */; };
 		F210AE8228BE6AC100B9BE88 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210AE8128BE6AC100B9BE88 /* App.swift */; };
 		F210AE8428BE6AC100B9BE88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210AE8328BE6AC100B9BE88 /* ContentView.swift */; };
 		F210AE8628BE6AC100B9BE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F210AE8528BE6AC100B9BE88 /* Assets.xcassets */; };
@@ -36,7 +53,42 @@
 		F2FAAF4628CBAD4800C7F01B /* Hentai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAAF4528CBAD4800C7F01B /* Hentai.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F207135128D5029600E74EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F210AE7628BE6AC100B9BE88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F207132C28D4F9BB00E74EC8;
+			remoteInfo = "RIffy H WidgetsExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F207135328D5029600E74EC8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F207135028D5029600E74EC8 /* RIffy H WidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F207132D28D4F9BB00E74EC8 /* RIffy H WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RIffy H WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F207132F28D4F9BB00E74EC8 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F207133128D4F9BB00E74EC8 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F207133428D4F9BB00E74EC8 /* RIffy_H_Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIffy_H_Widgets.swift; sourceTree = "<group>"; };
+		F207133628D4F9BB00E74EC8 /* RIffy_H_Widgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = RIffy_H_Widgets.intentdefinition; sourceTree = "<group>"; };
+		F207133728D4F9BC00E74EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F207133928D4F9BC00E74EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F207134428D4F9FB00E74EC8 /* LiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivity.swift; sourceTree = "<group>"; };
+		F207134928D4FAD000E74EC8 /* ReaderActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderActivityAttributes.swift; sourceTree = "<group>"; };
+		F207135628D5051200E74EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F207135828D5070400E74EC8 /* MiniTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniTag.swift; sourceTree = "<group>"; };
 		F210AE7E28BE6AC100B9BE88 /* Riffy H.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riffy H.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F210AE8128BE6AC100B9BE88 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		F210AE8328BE6AC100B9BE88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +115,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F207132A28D4F9BB00E74EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F207133228D4F9BB00E74EC8 /* SwiftUI.framework in Frameworks */,
+				F207135C28D507D200E74EC8 /* TailwindColor in Frameworks */,
+				F207133028D4F9BB00E74EC8 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F210AE7B28BE6AC100B9BE88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,10 +140,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F207132E28D4F9BB00E74EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F207132F28D4F9BB00E74EC8 /* WidgetKit.framework */,
+				F207133128D4F9BB00E74EC8 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F207133328D4F9BB00E74EC8 /* RIffy H Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				F207134328D4F9E100E74EC8 /* Widgets */,
+				F207133428D4F9BB00E74EC8 /* RIffy_H_Widgets.swift */,
+				F207133628D4F9BB00E74EC8 /* RIffy_H_Widgets.intentdefinition */,
+				F207133728D4F9BC00E74EC8 /* Assets.xcassets */,
+				F207133928D4F9BC00E74EC8 /* Info.plist */,
+			);
+			path = "RIffy H Widgets";
+			sourceTree = "<group>";
+		};
+		F207134328D4F9E100E74EC8 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				F207134428D4F9FB00E74EC8 /* LiveActivity.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		F207134728D4FAAB00E74EC8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F2EB0A1828CBAAC90038CB04 /* Codables */,
+				F207134828D4FAB500E74EC8 /* ActivityAttributes */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F207134828D4FAB500E74EC8 /* ActivityAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				F207134928D4FAD000E74EC8 /* ReaderActivityAttributes.swift */,
+			);
+			path = ActivityAttributes;
+			sourceTree = "<group>";
+		};
 		F210AE7528BE6AC100B9BE88 = {
 			isa = PBXGroup;
 			children = (
+				F207134728D4FAAB00E74EC8 /* Shared */,
 				F210AE8028BE6AC100B9BE88 /* Riffy H */,
+				F207133328D4F9BB00E74EC8 /* RIffy H Widgets */,
+				F207132E28D4F9BB00E74EC8 /* Frameworks */,
 				F210AE7F28BE6AC100B9BE88 /* Products */,
 			);
 			indentWidth = 2;
@@ -92,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				F210AE7E28BE6AC100B9BE88 /* Riffy H.app */,
+				F207132D28D4F9BB00E74EC8 /* RIffy H WidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,17 +211,17 @@
 		F210AE8028BE6AC100B9BE88 /* Riffy H */ = {
 			isa = PBXGroup;
 			children = (
+				F2C2944328CBDD7F001DFBE9 /* Extension */,
 				F2D96A8128D09E9E00D5159F /* Constants */,
+				F2C2943C28CBD9EE001DFBE9 /* Components */,
 				F2DBC02A28CE0BE5000EFB04 /* Context */,
 				F2D5FA3228CC077C0061B8F3 /* ObservableObject */,
-				F2C2944328CBDD7F001DFBE9 /* Extension */,
-				F2C2943C28CBD9EE001DFBE9 /* Components */,
-				F2EB0A1828CBAAC90038CB04 /* Codables */,
 				F29E953928CB8D6400F7FD54 /* Views */,
 				F210AE8128BE6AC100B9BE88 /* App.swift */,
 				F210AE8328BE6AC100B9BE88 /* ContentView.swift */,
 				F210AE8528BE6AC100B9BE88 /* Assets.xcassets */,
 				F210AE8728BE6AC100B9BE88 /* Preview Content */,
+				F207135628D5051200E74EC8 /* Info.plist */,
 			);
 			path = "Riffy H";
 			sourceTree = "<group>";
@@ -125,6 +237,7 @@
 		F2821A7228CD1000008CBB93 /* HentaiReader */ = {
 			isa = PBXGroup;
 			children = (
+				F2C2944128CBDAC7001DFBE9 /* ImageRender.swift */,
 				F2A60D9A28CCF70C00DC75A3 /* TagRenderer.swift */,
 				F2821A7328CD1013008CBB93 /* DescriptionLanguage.swift */,
 			);
@@ -146,7 +259,6 @@
 			children = (
 				F2821A7228CD1000008CBB93 /* HentaiReader */,
 				F2C2943F28CBDA17001DFBE9 /* HentaiCard.swift */,
-				F2C2944128CBDAC7001DFBE9 /* ImageRender.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -193,6 +305,7 @@
 				F2EB0A2028CBAC270038CB04 /* HentaiImage.swift */,
 				F2FAAF4528CBAD4800C7F01B /* Hentai.swift */,
 				F2C2943A28CBD409001DFBE9 /* APIResponseWithData.swift */,
+				F207135828D5070400E74EC8 /* MiniTag.swift */,
 			);
 			path = Codables;
 			sourceTree = "<group>";
@@ -200,6 +313,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F207132C28D4F9BB00E74EC8 /* RIffy H WidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F207133F28D4F9BC00E74EC8 /* Build configuration list for PBXNativeTarget "RIffy H WidgetsExtension" */;
+			buildPhases = (
+				F207132928D4F9BB00E74EC8 /* Sources */,
+				F207132A28D4F9BB00E74EC8 /* Frameworks */,
+				F207132B28D4F9BB00E74EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RIffy H WidgetsExtension";
+			packageProductDependencies = (
+				F207135B28D507D200E74EC8 /* TailwindColor */,
+			);
+			productName = "RIffy H WidgetsExtension";
+			productReference = F207132D28D4F9BB00E74EC8 /* RIffy H WidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		F210AE7D28BE6AC100B9BE88 /* Riffy H */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F210AE8C28BE6AC100B9BE88 /* Build configuration list for PBXNativeTarget "Riffy H" */;
@@ -207,10 +340,12 @@
 				F210AE7A28BE6AC100B9BE88 /* Sources */,
 				F210AE7B28BE6AC100B9BE88 /* Frameworks */,
 				F210AE7C28BE6AC100B9BE88 /* Resources */,
+				F207135328D5029600E74EC8 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F207135228D5029600E74EC8 /* PBXTargetDependency */,
 			);
 			name = "Riffy H";
 			packageProductDependencies = (
@@ -231,9 +366,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					F207132C28D4F9BB00E74EC8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					F210AE7D28BE6AC100B9BE88 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -260,11 +398,20 @@
 			projectRoot = "";
 			targets = (
 				F210AE7D28BE6AC100B9BE88 /* Riffy H */,
+				F207132C28D4F9BB00E74EC8 /* RIffy H WidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F207132B28D4F9BB00E74EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F207133828D4F9BC00E74EC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F210AE7C28BE6AC100B9BE88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +424,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F207132928D4F9BB00E74EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F207134E28D4FAFE00E74EC8 /* Hentai.swift in Sources */,
+				F207134B28D4FAD000E74EC8 /* ReaderActivityAttributes.swift in Sources */,
+				F207133A28D4F9BC00E74EC8 /* RIffy_H_Widgets.intentdefinition in Sources */,
+				F207134F28D4FB0000E74EC8 /* APIResponseWithData.swift in Sources */,
+				F207134D28D4FAFC00E74EC8 /* HentaiImage.swift in Sources */,
+				F207134C28D4FAFA00E74EC8 /* HentaiTag.swift in Sources */,
+				F207134628D4FA4400E74EC8 /* LiveActivity.swift in Sources */,
+				F207135A28D5071500E74EC8 /* MiniTag.swift in Sources */,
+				F207133528D4F9BB00E74EC8 /* RIffy_H_Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F210AE7A28BE6AC100B9BE88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,25 +451,92 @@
 				F2D96A8328D09EA900D5159F /* Config.swift in Sources */,
 				F221705D28D0AD5C00A21903 /* HentaiReader.swift in Sources */,
 				F210AE8428BE6AC100B9BE88 /* ContentView.swift in Sources */,
+				F207133B28D4F9BC00E74EC8 /* RIffy_H_Widgets.intentdefinition in Sources */,
 				F2A60D9B28CCF70C00DC75A3 /* TagRenderer.swift in Sources */,
 				F2DBC02C28CE0BF0000EFB04 /* AppState.swift in Sources */,
 				F2C2944528CBDD8D001DFBE9 /* URL.swift in Sources */,
 				F2C2944228CBDAC7001DFBE9 /* ImageRender.swift in Sources */,
 				F2C2943B28CBD409001DFBE9 /* APIResponseWithData.swift in Sources */,
 				F2C2944028CBDA17001DFBE9 /* HentaiCard.swift in Sources */,
+				F207134A28D4FAD000E74EC8 /* ReaderActivityAttributes.swift in Sources */,
 				F2C2943928CBD356001DFBE9 /* ListingController.swift in Sources */,
 				F2DBC02E28CE1462000EFB04 /* AppDelegate.swift in Sources */,
 				F29E953B28CB8D9C00F7FD54 /* Home.swift in Sources */,
 				F2821A7428CD1013008CBB93 /* DescriptionLanguage.swift in Sources */,
 				F2821A7128CD0FA9008CBB93 /* String.swift in Sources */,
 				F2FAAF4628CBAD4800C7F01B /* Hentai.swift in Sources */,
+				F207135928D5070400E74EC8 /* MiniTag.swift in Sources */,
 				F210AE8228BE6AC100B9BE88 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F207135228D5029600E74EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F207132C28D4F9BB00E74EC8 /* RIffy H WidgetsExtension */;
+			targetProxy = F207135128D5029600E74EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		F207134028D4F9BC00E74EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q5KKY45ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RIffy H Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RIffy H Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rayriffy.Riffy-H.RIffy-H-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F207134128D4F9BC00E74EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q5KKY45ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RIffy H Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RIffy H Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rayriffy.Riffy-H.RIffy-H-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		F210AE8A28BE6AC100B9BE88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -357,7 +587,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -411,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,12 +662,14 @@
 				DEVELOPMENT_TEAM = 3Q5KKY45ZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/rayriffy/Git/riffy-h-swift/Riffy H/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +682,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,12 +697,14 @@
 				DEVELOPMENT_TEAM = 3Q5KKY45ZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/rayriffy/Git/riffy-h-swift/Riffy H/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,13 +717,22 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F207133F28D4F9BC00E74EC8 /* Build configuration list for PBXNativeTarget "RIffy H WidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F207134028D4F9BC00E74EC8 /* Debug */,
+				F207134128D4F9BC00E74EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F210AE7928BE6AC100B9BE88 /* Build configuration list for PBXProject "Riffy H" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -554,6 +797,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F207135B28D507D200E74EC8 /* TailwindColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F29E953628CB8C4100F7FD54 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */;
+			productName = TailwindColor;
+		};
 		F2821A6E28CD0556008CBB93 /* KingfisherWebP */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F2821A6D28CD0556008CBB93 /* XCRemoteSwiftPackageReference "KingfisherWebP" */;

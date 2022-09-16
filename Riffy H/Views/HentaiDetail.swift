@@ -8,9 +8,11 @@
 import SwiftUI
 import Alamofire
 import TailwindColor
+import ActivityKit
 
 struct HentaiDetail: View {
   @StateObject public var hentaiController: HentaiController
+  @State private var readerActivityCard: Activity<ReaderActivityAttributes>? = nil
   
   private static var maximumGridWidth = Int(UIScreen.main.bounds.size.width * UIScreen.main.nativeScale / 2)
 
@@ -147,6 +149,58 @@ struct HentaiDetail: View {
         Spacer()
       }
       .navigationBarTitleDisplayMode(.inline)
+      .onAppear {
+        do {
+          let coverMediaId = hentaiController.hentai!.media_id
+          let coverImage = hentaiController.hentai!.images.cover
+          
+          let coverUrl = "https://t.nhentai.net/galleries/\(coverMediaId)/.\(coverImage.t == "p" ? "png" : coverImage.t == "g" ? "gif" : "jpg")"
+          
+          func getMiniTag(tagType: String) -> MiniTag {
+            return .init(
+              tagType: tagType,
+              count: hentaiController.hentai!.tags.filter {$0.type == tagType}.count
+            )
+          }
+
+          let readerActivity = try Activity<ReaderActivityAttributes>.request(
+            attributes: .init(
+              content: .init(
+                id: hentaiController.hentai!.id,
+                name: hentaiController.hentai!.title.pretty ?? "#no title#",
+                artist: hentaiController.hentai!.tags.first(where: { $0.type == "artist" })?.name ?? "",
+                coverImage: .init(
+                  url: coverUrl,
+                  width: coverImage.w,
+                  height: coverImage.h
+                ),
+                pageCount: hentaiController.hentai!.num_pages,
+                tags: [
+                  getMiniTag(tagType: "language"),
+                  getMiniTag(tagType: "character"),
+                  getMiniTag(tagType: "parody"),
+                  getMiniTag(tagType: "artist"),
+                  getMiniTag(tagType: "category"),
+                  getMiniTag(tagType: "tag"),
+                ]
+              ),
+              startTime: .now
+            ),
+            contentState: .init(),
+            pushType: nil
+          )
+          
+          self.readerActivityCard = readerActivity
+          print("live activity created: \(readerActivity.id)")
+        } catch (let error) {
+          print("failed requesting live activity: \(error.localizedDescription)")
+        }
+      }
+      .onDisappear {
+        Task {
+          await self.readerActivityCard?.end(using: .none, dismissalPolicy: .immediate)
+        }
+      }
     }
   }
 }
